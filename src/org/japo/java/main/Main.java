@@ -29,14 +29,15 @@ public class Main {
                     .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
 
     public static void main(String[] args) {
+        //Variable
         String nombre;
 
-        try {
-            System.out.print("Introduzca su nombre: ");
-            nombre = SCN.next();
-            System.out.printf("Su nombre es: %s%n", nombre);
-        } catch (Exception e) {
-            System.out.println("Error: dato incorrecto");
-        }
+        //Leer dato
+        System.out.print("Introduzca su nombre: ");
+        nombre = SCN.next();
+
+        //Mensaje final
+        System.out.printf("Su nombre es: %s%n", nombre);
+
     }
 }
